@@ -1,0 +1,503 @@
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/W32TeX) (format=pdflatex 2021.12.13)  5 MAY 2022 20:21
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**c:/Users/robie/Desktop/SP/Paper/SP-name.tex
+(c:/Users/robie/Desktop/SP/Paper/SP-name.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, german-x-2012-05-30, ngerman-x-2012-05-30, afrikaans, ancientgreek, ibycus, arabic, armenian, basque, bulgarian, catalan, pinyin, coptic, croatian, czech, danish, dutch, ukenglish, usenglishmax, esperanto, estonian, ethiopic, farsi, finnish, french, friulan, galician, german, ngerman, swissgerman, monogreek, greek, hungarian, icelandic, assamese, bengali, gujarati, hindi, kannada, malayalam, marathi, oriya, panjabi, tamil, telugu, indonesian, interlingua, irish, italian, kurmanji, latin, latvian, lithuanian, mongolian, mongolianlmc, bokmal, nynorsk, polish, portuguese, romanian, romansh, russian, sanskrit, serbian, serbianc, slovak, slovenian, spanish, swedish, turkish, turkmen, ukrainian, uppersorbian, welsh, loaded.
+\@input{preamble.aux}
+\openout2 = `preamble.aux'.
+
+(c:/Users/robie/Desktop/SP/Paper/preamble.tex (c:/texlive/2012/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2007/10/19 v1.4h Standard LaTeX document class
+(c:/texlive/2012/texmf-dist/tex/latex/base/bk12.clo
+File: bk12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+) (c:/texlive/2012/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2012/04/03 v0.4s Insert pages of external PDF documents (AM)
+ (c:/texlive/2012/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+) (c:/texlive/2012/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count88
+\calc@Bcount=\count89
+\calc@Adimen=\dimen103
+\calc@Bdimen=\dimen104
+\calc@Askip=\skip43
+\calc@Bskip=\skip44
+LaTeX Info: Redefining \setlength on input line 76.
+LaTeX Info: Redefining \addtolength on input line 77.
+\calc@Ccount=\count90
+\calc@Cskip=\skip45
+) (c:/texlive/2012/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2010/10/06 v2.0c eso-pic (RN)
+ (c:/texlive/2012/texmf-dist/tex/generic/oberdiek/atbegshi.sty
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+ (c:/texlive/2012/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+) (c:/texlive/2012/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+) (c:/texlive/2012/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)) (c:/texlive/2012/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+) (c:/texlive/2012/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+ (c:/texlive/2012/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+ (c:/texlive/2012/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+\Gread@gobject=\count91
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+)) (c:/texlive/2012/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+ (c:/texlive/2012/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+ (c:/texlive/2012/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+) (c:/texlive/2012/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+)
+\Gin@req@height=\dimen105
+\Gin@req@width=\dimen106
+) (c:/texlive/2012/texmf-dist/tex/latex/pdfpages/pppdftex.def
+File: pppdftex.def 2012/04/03 v0.4s Pdfpages driver for pdfTeX (AM)
+)
+\AM@pagebox=\box26
+\AM@toc@title=\toks15
+\c@AM@survey=\count92
+\AM@templatesizebox=\box27
+) (c:/texlive/2012/texmf-dist/tex/latex/apacite/apacite.sty
+Package: apacite 2012/02/25 v6.01 APA citation
+\c@BibCnt=\count93
+\bibleftmargin=\skip46
+\bibindent=\skip47
+\bibparsep=\skip48
+\bibitemsep=\skip49
+\biblabelsep=\skip50
+) (c:/texlive/2012/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip51
+
+For additional information on amsmath, use the `?' option.
+(c:/texlive/2012/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+ (c:/texlive/2012/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks16
+\ex@=\dimen107
+)) (c:/texlive/2012/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen108
+) (c:/texlive/2012/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count94
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count95
+\leftroot@=\count96
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count97
+\DOTSCASE@=\count98
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box28
+\strutbox@=\box29
+\big@size=\dimen109
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count99
+\c@MaxMatrixCols=\count100
+\dotsspace@=\muskip10
+\c@parentequation=\count101
+\dspbrk@lvl=\count102
+\tag@help=\toks17
+\row@=\count103
+\column@=\count104
+\maxfields@=\count105
+\andhelp@=\toks18
+\eqnshift@=\dimen110
+\alignsep@=\dimen111
+\tagshift@=\dimen112
+\tagwidth@=\dimen113
+\totwidth@=\dimen114
+\lineht@=\dimen115
+\@envbody=\toks19
+\multlinegap=\skip52
+\multlinetaggap=\skip53
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+) (c:/texlive/2012/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
+) (c:/texlive/2012/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2009/06/22 v3.00
+) (c:/texlive/2012/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks21
+\verbatim@line=\toks22
+\verbatim@in@stream=\read1
+) (c:/texlive/2012/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip11
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+) (c:/texlive/2012/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 1999/01/07 v2.07 `tabularx' package (DPC)
+ (c:/texlive/2012/texmf-dist/tex/latex/tools/array.sty
+Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen116
+\extrarowheight=\dimen117
+\NC@list=\toks23
+\extratabsurround=\skip54
+\backup@length=\skip55
+)
+\TX@col@width=\dimen118
+\TX@old@table=\dimen119
+\TX@old@col=\dimen120
+\TX@target=\dimen121
+\TX@delta=\dimen122
+\TX@cols=\count106
+\TX@ftn=\toks24
+) (c:/texlive/2012/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+))
+
+LaTeX Warning: Unused global option(s):
+    [twopage].
+
+(c:/Users/robie/Desktop/SP/Paper/SP-name.aux)
+\openout1 = `SP-name.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+\AtBeginShipoutBox=\box30
+ (c:/texlive/2012/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count107
+\scratchdimen=\dimen123
+\scratchbox=\box31
+\nofMPsegments=\count108
+\nofMParguments=\count109
+\everyMPshowfont=\toks25
+\MPscratchCnt=\count110
+\MPscratchDim=\dimen124
+\MPnumerator=\count111
+\makeMPintoPDFobject=\count112
+\everyMPtoPDFconversion=\toks26
+) (c:/texlive/2012/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO)
+ (c:/texlive/2012/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+) (c:/texlive/2012/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+ (c:/texlive/2012/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+ (c:/texlive/2012/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+)) (c:/texlive/2012/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+ (c:/texlive/2012/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+ (c:/texlive/2012/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+ (c:/texlive/2012/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+))
+\c@maskedRefs=\count113
+ (c:/texlive/2012/texmf-dist/tex/latex/apacite/english.apc
+File: english.apc 2012/02/25 v6.01 apacite language file
+LaTeX Info: Redefining \BPBI on input line 129.
+LaTeX Info: Redefining \BHBI on input line 130.
+)
+\openout2 = `title_page.aux'.
+
+ (c:/Users/robie/Desktop/SP/Paper/title_page.tex [1
+
+
+
+
+
+{c:/texlive/2012/texmf-var/fonts/map/pdftex/updmap/pdftex.map}])
+\openout2 = `approval.aux'.
+
+ (c:/Users/robie/Desktop/SP/Paper/approval.tex
+LaTeX Font Info:    Try loading font information for U+msa on input line 15.
+ (c:/texlive/2012/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2009/06/22 v3.00 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 15.
+ (c:/texlive/2012/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2009/06/22 v3.00 AMS symbols B
+)) [2
+
+
+]
+\openout2 = `declaration.aux'.
+
+ (c:/Users/robie/Desktop/SP/Paper/declaration.tex) [3
+
+
+]
+\openout2 = `dedication.aux'.
+
+ (c:/Users/robie/Desktop/SP/Paper/dedication.tex) [4
+
+
+]
+\openout2 = `acknowledgment.aux'.
+
+ (c:/Users/robie/Desktop/SP/Paper/acknowledgment.tex) [5
+
+
+]
+\openout2 = `abstract.aux'.
+
+ (c:/Users/robie/Desktop/SP/Paper/abstract.tex) [6
+
+
+]
+No file SP-name.toc.
+\tf@toc=\write3
+\openout3 = `SP-name.toc'.
+
+[7
+
+
+] [8
+
+]
+No file SP-name.lof.
+\tf@lof=\write4
+\openout4 = `SP-name.lof'.
+
+[9] [10
+
+]
+No file SP-name.lot.
+\tf@lot=\write5
+\openout5 = `SP-name.lot'.
+
+[11]
+\openout2 = `chapter_1.aux'.
+
+ (c:/Users/robie/Desktop/SP/Paper/chapter_1.tex
+Chapter 1.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [1
+
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [2]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [3]
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ™ in font cmr12!
+ [4]
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ™ in font cmr12!
+) [5]
+\openout2 = `chapter_2.aux'.
+
+ (c:/Users/robie/Desktop/SP/Paper/chapter_2.tex [6
+
+
+
+]
+Chapter 2.
+
+LaTeX Warning: Citation `waybill' undefined on input line 8.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [7]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [8]
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no ± in font cmr12!
+ [9]
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no ± in font cmr12!
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [10]
+Underfull \vbox (badness 3724) has occurred while \output is active []
+
+ [11] [12] [13] [14]) [15]
+\openout2 = `chapter_3.aux'.
+
+ (c:/Users/robie/Desktop/SP/Paper/chapter_3.tex [16
+
+
+
+]
+Chapter 3.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [17]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 20.
+ (c:/texlive/2012/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 20.
+ [18]
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ™ in font cmr12!
+ [19] [20]
+
+LaTeX Warning: Reference `tab:timetableactivities' on page 21 undefined on input line 62.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 90--90
+[]|\OT1/cmr/m/n/12 Study on Pre-req-ui-site
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 93--93
+[]|\OT1/cmr/m/n/12 Development of Rac-ing
+ []
+
+) [21]
+\openout2 = `chapter_4.aux'.
+
+ (c:/Users/robie/Desktop/SP/Paper/chapter_4.tex [22
+
+
+
+]
+Chapter 4.
+) [23]
+\openout2 = `chapter_5.aux'.
+
+ (c:/Users/robie/Desktop/SP/Paper/chapter_5.tex [24
+
+
+
+]
+Chapter 5.
+) [25]
+\openout2 = `chapter_6.aux'.
+
+ (c:/Users/robie/Desktop/SP/Paper/chapter_6.tex [26
+
+
+
+]
+Chapter 6.
+No file SP-name.bbl.
+) [27]
+\openout2 = `appendix_A.aux'.
+
+ (c:/Users/robie/Desktop/SP/Paper/appendix_A.tex [28
+
+
+
+]
+Appendix A.
+) [29]
+\openout2 = `appendix_B.aux'.
+
+ (c:/Users/robie/Desktop/SP/Paper/appendix_B.tex [30
+
+
+
+]
+Appendix B.
+)
+Underfull \hbox (badness 10000) in paragraph at lines 29--35
+
+ []
+
+[31] (c:/Users/robie/Desktop/SP/Paper/SP-name.aux (c:/Users/robie/Desktop/SP/Paper/title_page.aux) (c:/Users/robie/Desktop/SP/Paper/approval.aux) (c:/Users/robie/Desktop/SP/Paper/declaration.aux) (c:/Users/robie/Desktop/SP/Paper/dedication.aux) (c:/Users/robie/Desktop/SP/Paper/acknowledgment.aux) (c:/Users/robie/Desktop/SP/Paper/abstract.aux) (c:/Users/robie/Desktop/SP/Paper/chapter_1.aux) (c:/Users/robie/Desktop/SP/Paper/chapter_2.aux) (c:/Users/robie/Desktop/SP/Paper/chapter_3.aux) (c:/Users/robie/Desktop/SP/Paper/chapter_4.aux) (c:/Users/robie/Desktop/SP/Paper/chapter_5.aux) (c:/Users/robie/Desktop/SP/Paper/chapter_6.aux) (c:/Users/robie/Desktop/SP/Paper/appendix_A.aux) (c:/Users/robie/Desktop/SP/Paper/appendix_B.aux))
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 4388 strings out of 493488
+ 60465 string characters out of 3144747
+ 125331 words of memory out of 3000000
+ 7535 multiletter control sequences out of 15000+200000
+ 12140 words of font info for 45 fonts, out of 3000000 for 9000
+ 959 hyphenation exceptions out of 8191
+ 41i,10n,41p,1871b,215s stack positions out of 5000i,500n,10000p,200000b,50000s
+<c:/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><c:/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb><c:/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on c:/Users/robie/Desktop/SP/Paper/SP-name.pdf (42 pages, 133764 bytes).
+PDF statistics:
+ 173 PDF objects out of 1000 (max. 8388607)
+ 119 compressed objects within 2 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+
