@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12.10) (preloaded format=pdflatex 2021.12.14)  7 MAY 2022 00:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12.10) (preloaded format=pdflatex 2021.12.14)  7 MAY 2022 00:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -381,7 +381,7 @@ Chapter 3.
 
 LaTeX Warning: Reference `fig:requestSlip' on page 17 undefined on input line 7.
 
-<figures//requestSlip.jpg, id=93, 722.7pt x 920.43875pt>
+<figures//requestSlip.jpg, id=94, 722.7pt x 920.43875pt>
 File: figures//requestSlip.jpg Graphic file (type jpg)
 <use figures//requestSlip.jpg>
 Package pdftex.def Info: figures//requestSlip.jpg  used on input line 10.
@@ -394,15 +394,15 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [18 <./figures//requestSlip.jpg>] [19] [20] [21]
 
-LaTeX Warning: Reference `tab:timetableactivities' on page 22 undefined on input line 67.
+LaTeX Warning: Reference `tab:timetableactivities' on page 22 undefined on input line 65.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 95--95
+Underfull \hbox (badness 10000) in paragraph at lines 93--93
 []|\OT1/cmr/m/n/12 Study on Pre-req-ui-site
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 98--98
+Underfull \hbox (badness 10000) in paragraph at lines 96--96
 []|\OT1/cmr/m/n/12 Development of Rac-ing
  []
 
@@ -492,13 +492,13 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 Here is how much of TeX's memory you used:
  5121 strings out of 478659
  81893 string characters out of 2855776
- 376624 words of memory out of 3000000
+ 377624 words of memory out of 3000000
  23080 multiletter control sequences out of 15000+600000
  412267 words of font info for 59 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 77i,10n,81p,1878b,232s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 77i,10n,81p,1878b,242s stack positions out of 5000i,500n,10000p,200000b,80000s
  <C:\Users\kenke\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on SP-name.pdf (52 pages, 417248 bytes).
+Output written on SP-name.pdf (52 pages, 417357 bytes).
 PDF statistics:
  214 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
