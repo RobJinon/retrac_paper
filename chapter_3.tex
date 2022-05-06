@@ -4,10 +4,12 @@
 \section{Research Activities}
 
 \subsection{Information Gathering}
-The developers reached out to the College of Arts and Sciences Office of the College Secretary to decide the features and functionality of ReTrac. They asked what type of documents can be requested at their office, the cost for requesting each document, and the process for requesting the documents. The Office of the College Secretary also shared the blog site where the document request form can be downloaded.
+The developers reached out to the College of Arts and Sciences Office of the College Secretary to decide the features and functionality of ReTrac. They asked what type of documents can be requested at their office, the cost for requesting each document, and the process for requesting the documents. The Office of the College Secretary also shared the blog site where the document request form can be downloaded. The document request form is as shown in Figure \ref{fig:requestSlip}.
 
-The document request is as shown in the figure below:
-$$ \ll insert flowchart here \gg $$
+\begin{figure}[!htb]
+  \includegraphics[width=\textwidth]{requestSlip.jpg}
+  \caption{\label{fig:requestSlip} The request form currently used.}
+\end{figure}
 
 The developers interviewed Ms. Maureen Kay Ongco, Chief of the University's Cash Office, regarding the payment methods for requesting documents, the payment methods currently being implemented, and the payment methods they are planning to remove and/or add. 
 
@@ -35,7 +37,11 @@ A desktop application is more accessible for University Offices since they alrea
 
 With those considerations, the developers decided to settle with using the web as the platform for the document request and tracking application. Furthermore, developing a version for the desktop and mobile separately would make it more difficult to update feature changes and patches. Developing a web application would also mean that only one application will be maintained making it faster to implement changes.
 \subsection{Technology}
-There are a lot of free-tier or trial versions in the market for cloud services and tools such as Google Cloud, Amazon AWS, Microsoft Azure, IBM Cloud, and many more. However, the developers settled on using Firebase. Firebase is a backend-as-a-service (BaaS) web technology under Google.
+The design of the user interface (UI) of the system is done using Figma, a web-based graphics editor and prototyping tool.
+
+The front-end of the system is developed using the React framework. Although there are other Javascript frameworks on the market, the developers are most familiar with React. In addition to the front-end framework, Vitejs is also used. Vitejs is a build tool for React and other frameworks, it also offers tools for enhanced developer experience.
+
+To make the system accessible to users, a cloud service provider is needed. The market offers a wide variety of cloud service, that includes Google Cloud, Amazon AWS, Microsoft Azure, and IBM Cloud among others. There are also services that offers free-tier or trial periods, among which is Firebase. Firebase is a Backend-as-a-Service (BaaS) web technology under Google.
 
 The tools needed for the document request and tracking system includes:
 \begin{itemize}
@@ -46,11 +52,10 @@ The tools needed for the document request and tracking system includes:
 
 The tools mentioned above are all present in Firebase. Instead of using multiple cloud services which makes it difficult to manage the web applications dependencies, it is better to use a cloud service that provides all the tools needed for the web application. Moreover, the Spark Plan, which is the free-tier offer of Firebase, can provide enough resources to deploy a big web application.
 
-In addition to the cloud service, the developers will also be using React as a Javascript framework to develop the front-end of the web application. There are a lot of Javascript frameworks currently existing in the market, however, since the developers are more experienced in using React than any other framework, React will be used.
 \subsection{Development Framework}
-This study will use the incremental and iterative approach in developing the entire system, specifically, the Scrum Framework in Agile Development.
+This study will use the incremental and iterative approach in developing the entire system, specifically, the Scrum Framework in Agile Development. Incremental approach breaks down the system development to smaller tasks and the iterative approach ensures a systematic development cycle through what is called 'iterations'.
 
-Through incremental and iterative approach, the progress is more trackable and consistent since each iteration will focus on a certain feature or implementation.
+Through incremental and iterative approach, the progress is build incrementally and adapting to changes is easier since it is done in iterations.
 
 The Scrum Framework will enable the developers to deliver the minimum viable product (MVP) as early as possible for feedback collection. The said framework would also help given the limited manpower.
 
