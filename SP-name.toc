@@ -4,7 +4,7 @@
 \contentsline {section}{\numberline {1.3}Research Objectives}{3}
 \contentsline {subsection}{\numberline {1.3.1}General Objective}{3}
 \contentsline {subsection}{\numberline {1.3.2}Specific Objectives}{4}
-\contentsline {section}{\numberline {1.4}Scope and Limitations of the Research}{4}
+\contentsline {section}{\numberline {1.4}Scope and Limitations of the Research}{5}
 \contentsline {section}{\numberline {1.5}Significance of the Research}{5}
 \contentsline {chapter}{\numberline {2}Review of Related Literature}{7}
 \contentsline {section}{\numberline {2.1}Document Tracking Systems}{7}
@@ -17,13 +17,18 @@
 \contentsline {chapter}{\numberline {3}Research Methodology}{17}
 \contentsline {section}{\numberline {3.1}Research Activities}{17}
 \contentsline {subsection}{\numberline {3.1.1}Information Gathering}{17}
-\contentsline {subsection}{\numberline {3.1.2}Application Features}{18}
-\contentsline {subsection}{\numberline {3.1.3}Platform}{19}
-\contentsline {subsection}{\numberline {3.1.4}Technology}{19}
-\contentsline {subsection}{\numberline {3.1.5}Development Framework}{20}
-\contentsline {section}{\numberline {3.2}Calendar of Activities}{21}
-\contentsline {chapter}{\numberline {4}Results and Discussions/Analyses}{23}
-\contentsline {chapter}{\numberline {5}Conclusion}{25}
-\contentsline {chapter}{\numberline {6}References}{27}
-\contentsline {chapter}{\numberline {A}Appendix}{29}
-\contentsline {chapter}{\numberline {B}Resource Persons}{31}
+\contentsline {subsection}{\numberline {3.1.2}Application Features}{19}
+\contentsline {subsection}{\numberline {3.1.3}Platform}{20}
+\contentsline {subsection}{\numberline {3.1.4}Technology}{20}
+\contentsline {subsection}{\numberline {3.1.5}Development Framework}{21}
+\contentsline {section}{\numberline {3.2}Calendar of Activities}{22}
+\contentsline {chapter}{\numberline {4}Results and Discussions/Analyses}{25}
+\contentsline {section}{\numberline {4.1}Results}{25}
+\contentsline {subsection}{\numberline {4.1.1}Requestor View}{26}
+\contentsline {subsubsection}{Sign in/Sign up and Dashboard}{26}
+\contentsline {subsubsection}{Request Page}{26}
+\contentsline {subsubsection}{Tracking Page}{27}
+\contentsline {chapter}{\numberline {5}Conclusion}{29}
+\contentsline {chapter}{\numberline {6}References}{31}
+\contentsline {chapter}{\numberline {A}Appendix}{33}
+\contentsline {chapter}{\numberline {B}Resource Persons}{35}

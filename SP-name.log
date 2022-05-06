@@ -1,16 +1,16 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/W32TeX) (format=pdflatex 2021.12.13)  5 MAY 2022 20:21
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/W32TeX) (format=pdflatex 2021.12.13)  6 MAY 2022 23:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/robie/Desktop/SP/Paper/SP-name.tex
-(c:/Users/robie/Desktop/SP/Paper/SP-name.tex
+**c:/Users/robie/Desktop/SP/Lmao/retrac_paper/SP-name.tex
+(c:/Users/robie/Desktop/SP/Lmao/retrac_paper/SP-name.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, german-x-2012-05-30, ngerman-x-2012-05-30, afrikaans, ancientgreek, ibycus, arabic, armenian, basque, bulgarian, catalan, pinyin, coptic, croatian, czech, danish, dutch, ukenglish, usenglishmax, esperanto, estonian, ethiopic, farsi, finnish, french, friulan, galician, german, ngerman, swissgerman, monogreek, greek, hungarian, icelandic, assamese, bengali, gujarati, hindi, kannada, malayalam, marathi, oriya, panjabi, tamil, telugu, indonesian, interlingua, irish, italian, kurmanji, latin, latvian, lithuanian, mongolian, mongolianlmc, bokmal, nynorsk, polish, portuguese, romanian, romansh, russian, sanskrit, serbian, serbianc, slovak, slovenian, spanish, swedish, turkish, turkmen, ukrainian, uppersorbian, welsh, loaded.
 \@input{preamble.aux}
 \openout2 = `preamble.aux'.
 
-(c:/Users/robie/Desktop/SP/Paper/preamble.tex (c:/texlive/2012/texmf-dist/tex/latex/base/book.cls
+(c:/Users/robie/Desktop/SP/Lmao/retrac_paper/preamble.tex (c:/texlive/2012/texmf-dist/tex/latex/base/book.cls
 Document Class: book 2007/10/19 v1.4h Standard LaTeX document class
 (c:/texlive/2012/texmf-dist/tex/latex/base/bk12.clo
 File: bk12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
@@ -198,7 +198,7 @@ Package: setspace 2011/12/19 v6.7a set line spacing
 LaTeX Warning: Unused global option(s):
     [twopage].
 
-(c:/Users/robie/Desktop/SP/Paper/SP-name.aux)
+(c:/Users/robie/Desktop/SP/Lmao/retrac_paper/SP-name.aux)
 \openout1 = `SP-name.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
@@ -268,7 +268,10 @@ LaTeX Info: Redefining \BHBI on input line 130.
 )
 \openout2 = `title_page.aux'.
 
- (c:/Users/robie/Desktop/SP/Paper/title_page.tex [1
+ (c:/Users/robie/Desktop/SP/Lmao/retrac_paper/title_page.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [1
 
 
 
@@ -277,7 +280,7 @@ LaTeX Info: Redefining \BHBI on input line 130.
 {c:/texlive/2012/texmf-var/fonts/map/pdftex/updmap/pdftex.map}])
 \openout2 = `approval.aux'.
 
- (c:/Users/robie/Desktop/SP/Paper/approval.tex
+ (c:/Users/robie/Desktop/SP/Lmao/retrac_paper/approval.tex
 LaTeX Font Info:    Try loading font information for U+msa on input line 15.
  (c:/texlive/2012/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
@@ -291,25 +294,25 @@ File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 ]
 \openout2 = `declaration.aux'.
 
- (c:/Users/robie/Desktop/SP/Paper/declaration.tex) [3
+ (c:/Users/robie/Desktop/SP/Lmao/retrac_paper/declaration.tex) [3
 
 
 ]
 \openout2 = `dedication.aux'.
 
- (c:/Users/robie/Desktop/SP/Paper/dedication.tex) [4
+ (c:/Users/robie/Desktop/SP/Lmao/retrac_paper/dedication.tex) [4
 
 
 ]
 \openout2 = `acknowledgment.aux'.
 
- (c:/Users/robie/Desktop/SP/Paper/acknowledgment.tex) [5
+ (c:/Users/robie/Desktop/SP/Lmao/retrac_paper/acknowledgment.tex) [5
 
 
 ]
 \openout2 = `abstract.aux'.
 
- (c:/Users/robie/Desktop/SP/Paper/abstract.tex) [6
+ (c:/Users/robie/Desktop/SP/Lmao/retrac_paper/abstract.tex) [6
 
 
 ]
@@ -337,7 +340,7 @@ No file SP-name.lot.
 [11]
 \openout2 = `chapter_1.aux'.
 
- (c:/Users/robie/Desktop/SP/Paper/chapter_1.tex
+ (c:/Users/robie/Desktop/SP/Lmao/retrac_paper/chapter_1.tex
 Chapter 1.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -348,10 +351,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [2]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [3]
+ [2] [3]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
@@ -359,14 +359,13 @@ Missing character: There is no ô in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
-) [5]
+
+Underfull \vbox (badness 2469) has occurred while \output is active []
+
+ [5]) [6]
 \openout2 = `chapter_2.aux'.
 
- (c:/Users/robie/Desktop/SP/Paper/chapter_2.tex [6
-
-
-
-]
+ (c:/Users/robie/Desktop/SP/Lmao/retrac_paper/chapter_2.tex
 Chapter 2.
 
 LaTeX Warning: Citation `waybill' undefined on input line 8.
@@ -374,7 +373,11 @@ LaTeX Warning: Citation `waybill' undefined on input line 8.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [7]
+ [7
+
+
+
+]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [8]
@@ -392,81 +395,155 @@ Underfull \vbox (badness 3724) has occurred while \output is active []
  [11] [12] [13] [14]) [15]
 \openout2 = `chapter_3.aux'.
 
- (c:/Users/robie/Desktop/SP/Paper/chapter_3.tex [16
+ (c:/Users/robie/Desktop/SP/Lmao/retrac_paper/chapter_3.tex [16
 
 
 
 ]
 Chapter 3.
 
+LaTeX Warning: Reference `fig:requestSlip' on page 17 undefined on input line 7.
+
+<figures/requestSlip.jpg, id=94, 722.7pt x 920.43875pt>
+File: figures/requestSlip.jpg Graphic file (type jpg)
+ <use figures/requestSlip.jpg>
+Package pdftex.def Info: figures/requestSlip.jpg used on input line 10.
+(pdftex.def)             Requested size: 415.55249pt x 529.24817pt.
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [17]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 20.
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [18 <c:/Users/robie/Desktop/SP/Lmao/retrac_paper/figures/requestSlip.jpg>]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 22.
  (c:/texlive/2012/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 20.
- [18]
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 22.
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
- [19] [20]
+ [19] [20] [21]
 
-LaTeX Warning: Reference `tab:timetableactivities' on page 21 undefined on input line 62.
+LaTeX Warning: Reference `tab:timetableactivities' on page 22 undefined on input line 67.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 90--90
+Underfull \hbox (badness 10000) in paragraph at lines 95--95
 []|\OT1/cmr/m/n/12 Study on Pre-req-ui-site
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 93--93
+Underfull \hbox (badness 10000) in paragraph at lines 98--98
 []|\OT1/cmr/m/n/12 Development of Rac-ing
  []
 
-) [21]
+) [22] [23]
 \openout2 = `chapter_4.aux'.
 
- (c:/Users/robie/Desktop/SP/Paper/chapter_4.tex [22
+ (c:/Users/robie/Desktop/SP/Lmao/retrac_paper/chapter_4.tex [24
 
 
 
 ]
 Chapter 4.
-) [23]
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [25]
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+ [26]) [27]
 \openout2 = `chapter_5.aux'.
 
- (c:/Users/robie/Desktop/SP/Paper/chapter_5.tex [24
+ (c:/Users/robie/Desktop/SP/Lmao/retrac_paper/chapter_5.tex [28
 
 
 
 ]
 Chapter 5.
-) [25]
+) [29]
 \openout2 = `chapter_6.aux'.
 
- (c:/Users/robie/Desktop/SP/Paper/chapter_6.tex [26
+ (c:/Users/robie/Desktop/SP/Lmao/retrac_paper/chapter_6.tex [30
 
 
 
 ]
 Chapter 6.
 No file SP-name.bbl.
-) [27]
+) [31]
 \openout2 = `appendix_A.aux'.
 
- (c:/Users/robie/Desktop/SP/Paper/appendix_A.tex [28
+ (c:/Users/robie/Desktop/SP/Lmao/retrac_paper/appendix_A.tex [32
 
 
 
 ]
 Appendix A.
-) [29]
+) [33]
 \openout2 = `appendix_B.aux'.
 
- (c:/Users/robie/Desktop/SP/Paper/appendix_B.tex [30
+ (c:/Users/robie/Desktop/SP/Lmao/retrac_paper/appendix_B.tex [34
 
 
 
@@ -477,7 +554,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--35
 
  []
 
-[31] (c:/Users/robie/Desktop/SP/Paper/SP-name.aux (c:/Users/robie/Desktop/SP/Paper/title_page.aux) (c:/Users/robie/Desktop/SP/Paper/approval.aux) (c:/Users/robie/Desktop/SP/Paper/declaration.aux) (c:/Users/robie/Desktop/SP/Paper/dedication.aux) (c:/Users/robie/Desktop/SP/Paper/acknowledgment.aux) (c:/Users/robie/Desktop/SP/Paper/abstract.aux) (c:/Users/robie/Desktop/SP/Paper/chapter_1.aux) (c:/Users/robie/Desktop/SP/Paper/chapter_2.aux) (c:/Users/robie/Desktop/SP/Paper/chapter_3.aux) (c:/Users/robie/Desktop/SP/Paper/chapter_4.aux) (c:/Users/robie/Desktop/SP/Paper/chapter_5.aux) (c:/Users/robie/Desktop/SP/Paper/chapter_6.aux) (c:/Users/robie/Desktop/SP/Paper/appendix_A.aux) (c:/Users/robie/Desktop/SP/Paper/appendix_B.aux))
+[35] (c:/Users/robie/Desktop/SP/Lmao/retrac_paper/SP-name.aux (c:/Users/robie/Desktop/SP/Lmao/retrac_paper/title_page.aux) (c:/Users/robie/Desktop/SP/Lmao/retrac_paper/approval.aux) (c:/Users/robie/Desktop/SP/Lmao/retrac_paper/declaration.aux) (c:/Users/robie/Desktop/SP/Lmao/retrac_paper/dedication.aux) (c:/Users/robie/Desktop/SP/Lmao/retrac_paper/acknowledgment.aux) (c:/Users/robie/Desktop/SP/Lmao/retrac_paper/abstract.aux) (c:/Users/robie/Desktop/SP/Lmao/retrac_paper/chapter_1.aux) (c:/Users/robie/Desktop/SP/Lmao/retrac_paper/chapter_2.aux) (c:/Users/robie/Desktop/SP/Lmao/retrac_paper/chapter_3.aux) (c:/Users/robie/Desktop/SP/Lmao/retrac_paper/chapter_4.aux) (c:/Users/robie/Desktop/SP/Lmao/retrac_paper/chapter_5.aux) (c:/Users/robie/Desktop/SP/Lmao/retrac_paper/chapter_6.aux) (c:/Users/robie/Desktop/SP/Lmao/retrac_paper/appendix_A.aux) (c:/Users/robie/Desktop/SP/Lmao/retrac_paper/appendix_B.aux))
 
 LaTeX Warning: There were undefined references.
 
@@ -486,18 +563,18 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 4388 strings out of 493488
- 60465 string characters out of 3144747
- 125331 words of memory out of 3000000
- 7535 multiletter control sequences out of 15000+200000
+ 4396 strings out of 493488
+ 61424 string characters out of 3144747
+ 126331 words of memory out of 3000000
+ 7540 multiletter control sequences out of 15000+200000
  12140 words of font info for 45 fonts, out of 3000000 for 9000
  959 hyphenation exceptions out of 8191
- 41i,10n,41p,1871b,215s stack positions out of 5000i,500n,10000p,200000b,50000s
-<c:/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><c:/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb><c:/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on c:/Users/robie/Desktop/SP/Paper/SP-name.pdf (42 pages, 133764 bytes).
+ 41i,10n,41p,1883b,239s stack positions out of 5000i,500n,10000p,200000b,50000s
+<c:/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><c:/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb><c:/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on c:/Users/robie/Desktop/SP/Lmao/retrac_paper/SP-name.pdf (46 pages, 333661 bytes).
 PDF statistics:
- 173 PDF objects out of 1000 (max. 8388607)
- 119 compressed objects within 2 object streams
+ 183 PDF objects out of 1000 (max. 8388607)
+ 125 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,3 +1,27 @@
 %   Filename    : chapter_4.tex 
 \chapter{Results and Discussions/Analyses}
-This chapter  presents the results or  the system  of your SP.  Include screenshots, tables, or graphs and provide the discussion of results.
+
+\section{Results}
+
+According to the results of the requirements analysis and methodology, the team was to identify and devise the main features of the web application such as the requestor view of request, tracking, payment, and profile dashboard. For the college secretary view, we identified implementing features such as document request dashboard, history, request status update, office profile, and request file uploading. The cash officer view, however, will consist of pending payments, history of payments, verification of payments, and uploading of original receipt files. Overall, the system will include features of request creation, payment portal, payment verification, document processing, and request tracking. These features were implemented and will be further discussed in their respective sections below.
+
+\subsection{Requestor View}
+
+\subsubsection{Sign in/Sign up and Dashboard}
+
+These features will let the user access their ReTrac profile in order to request documents, view pending and previous requests, and update their profile information. The user will need to sign up in order to utilize the system by providing their information. If the user is already registered, the sign-in page will collect their credentials and will redirect them to the dashboard where they will have a quick glance at their documents request in Figure 4.4 Dashboard. It is further divided into three status cards called “new”, “pending”, and “released”. By clicking on it, it will redirect to the tracking page with filtered results which will be discussed in the tracking section below.
+
+\subsubsection{Request Page}
+
+The Request Page is designed as a step-by-step form. It has four (4) steps, “Enter Details”, “Review Information”, “Payment”, and “Track Document”. This page features the requesting of possible documents from the CAS College Secretary with multiple documents at an instance.
+
+When the user clicks on “New Request” from Figure 4.4 or on the sidebar, Figure 4.5 Fresh State Request Page will be displayed. The requestor is then greeted with this form which it will ask for the type of document, the academic year and term, number of copies, and purpose. 
+
+Multiple documents may be requested per order or request. They can add different variants of documents using the “Add Document” button which will give them a cleared form with saved information of the previous documents at the top of the form as shown in Figure 4.6. Clicking the “Next” button will prompt the user to the Information Review page.
+
+The Information Review Page will display a summary of documents requested as well the information of the requestor that will be processed by the CAS College Secretary. A safeguard checkbox is added so that the user will confirm that all the information provided is correct to the best of their ability. Figure 4.8 shows the breakdown of payments based on the documents requested. The user can then pay using the QR code provided by the Cash Office in Figure 4.9.
+
+The Payment QR page is under the payment step where the requester will be scanning the QR code of an online payment provider. The user then enters the transaction reference number manually for verification by the Cash Office which will be discussed in the later section. After entering the number, it will display the initial tracking page and transaction information which includes the request transaction code, transaction dates, and documents requested. The requestor has options to either cancel the entire transaction or view the trail of requests, the latter will redirect them to the tracking page feature.
+
+\subsubsection{Tracking Page}
+
