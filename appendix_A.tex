@@ -11,6 +11,234 @@
 
 
 
+\section{JSON Schema for User Request}
+
+    \begin{lstlisting}[language=json, firstnumber=1]
+    {
+      "$schema": "http://json-schema.org/draft-04/schema#",
+      "type": "object",
+      "properties": {
+        "reqid": {
+          "type": "string"
+        },
+        "requester": {
+          "type": "object",
+          "properties": {
+            "studentNumber": {
+              "type": "integer"
+            },
+            "uid": {
+              "type": "string"
+            },
+            "firstName": {
+              "type": "string"
+            },
+            "degreeProgram": {
+              "type": "string"
+            },
+            "middleInitial": {
+              "type": "string"
+            },
+            "sex": {
+              "type": "string"
+            },
+            "lastName": {
+              "type": "string"
+            },
+            "displayName": {
+              "type": "string"
+            },
+            "email": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "studentNumber",
+            "uid",
+            "firstName",
+            "degreeProgram",
+            "middleInitial",
+            "sex",
+            "lastName",
+            "displayName",
+            "email"
+          ]
+        },
+        "timestamp": {
+          "type": "string"
+        },
+        "documents": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "type": {
+                  "type": "string"
+                },
+                "copies": {
+                  "type": "integer"
+                },
+                "amount": {
+                  "type": "number"
+                },
+                "semester": {
+                  "type": "string"
+                },
+                "acadYear": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "type",
+                "copies",
+                "amount",
+                "semester",
+                "acadYear"
+              ]
+            }
+          ]
+        },
+        "trail": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "time": {
+                  "type": "object",
+                  "properties": {
+                    "seconds": {
+                      "type": "integer"
+                    },
+                    "nanoseconds": {
+                      "type": "integer"
+                    }
+                  },
+                  "required": [
+                    "seconds",
+                    "nanoseconds"
+                  ]
+                },
+                "update": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "time",
+                "update"
+              ]
+            }
+          ]
+        },
+        "purpose": {
+          "type": "string"
+        },
+        "status": {
+          "type": "string"
+        },
+        "proofOfPayment": {
+          "type": "string"
+        },
+        "paymentStatus": {
+          "type": "string"
+        },
+        "paymentOption": {
+          "type": "string"
+        },
+        "paidAmount": {
+          "type": "number"
+        },
+        "completePayment": {
+          "type": "boolean"
+        },
+        "transactionKey": {
+          "type": "string"
+        },
+        "transDate": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "reqid",
+        "requester",
+        "timestamp",
+        "documents",
+        "trail",
+        "purpose",
+        "status",
+        "proofOfPayment",
+        "paymentStatus",
+        "paymentOption",
+        "paidAmount",
+        "completePayment",
+        "transactionKey",
+        "transDate"
+      ]
+    }
+    \end{lstlisting}
+
+\section{JSON Schema for Users}
+    \begin{lstlisting}
+        {
+          "$schema": "http://json-schema.org/draft-04/schema#",
+          "type": "object",
+          "properties": {
+            "degreeProgram": {
+              "type": "string"
+            },
+            "email": {
+              "type": "string"
+            },
+            "lastName": {
+              "type": "string"
+            },
+            "sex": {
+              "type": "string"
+            },
+            "middleInitial": {
+              "type": "string"
+            },
+            "uid": {
+              "type": "string"
+            },
+            "studentNumber": {
+              "type": "integer"
+            },
+            "photoURL": {
+              "type": "string"
+            },
+            "displayName": {
+              "type": "string"
+            },
+            "firstName": {
+              "type": "string"
+            },
+            "requests": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                }
+              ]
+            }
+          },
+          "required": [
+            "degreeProgram",
+            "email",
+            "lastName",
+            "sex",
+            "middleInitial",
+            "uid",
+            "studentNumber",
+            "photoURL",
+            "displayName",
+            "firstName",
+            "requests"
+          ]
+        }
+    \end{lstlisting
+
 % Save the file you want to include in PDF format.
 % Uncomment the commant below specifying the correct appendix file. 
 %\includepdf[pages=-, scale = 0.9, pagecommand={}, offset = -30 0]{appendixA.pdf}
