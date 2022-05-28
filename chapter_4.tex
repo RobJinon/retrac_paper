@@ -1,8 +1,9 @@
 %   Filename    : chapter_4.tex 
 
 \chapter{Results and Discussions/Analyses}
-
 \section{Results}
+\label{sec:results}
+
 According to the results of the requirements analysis and methodology, the team was to identify and devise the main features of the web application such as the requestor view of request, tracking, payment, and profile dashboard. For the college secretary view, we identified implementing features such as document request dashboard, history, request status update, office profile, and request file uploading. The cash officer view, however, will consist of pending payments, history of payments, verification of payments, and uploading of original receipt files. Overall, the system will include features of request creation, payment portal, payment verification, document processing, and request tracking. These features were implemented and will be further discussed in their respective sections below.
 
 \subsection{Requestor View}
@@ -46,7 +47,7 @@ According to the results of the requirements analysis and methodology, the team 
     \end{figure}
 
 
-These features will let the user access their ReTrac profile in order to request documents, view pending and previous requests, and update their profile information. The user will need to sign up in order to utilize the system by providing their information. If the user is already registered, the sign-in page will collect their credentials and will redirect them to the dashboard where they will have a quick glance at their documents request in Figure 4.4 Dashboard. It is further divided into three status cards called “new”, “pending”, and “released”. By clicking on it, it will redirect to the tracking page with filtered results which will be discussed in the tracking section below.
+These features will let the user access their ReTrac profile in order to request documents, view pending and previous requests, and update their profile information. The user will need to sign up in order to utilize the system by providing their information. If the user is already registered, the sign-in page will collect their credentials and will redirect them to the dashboard where they will have a quick glance at their documents request in Figure ~\ref{fig:Dashboard}. It is further divided into three status cards called “new”, “pending”, and “released”. By clicking on it, it will redirect to the tracking page with filtered results which will be discussed in the tracking section below.
 
 \subsubsection{Request Page}
 
@@ -73,9 +74,9 @@ The Request Page is designed as a step-by-step form. It has four (4) steps, “E
         \end{minipage}
     \end{figure}
 
-When the user clicks on “New Request” from Figure 4.4 or on the sidebar, Figure 4.5 Fresh State Request Page will be displayed. The requestor is then greeted with this form which it will ask for the type of document, the academic year and term, number of copies, and purpose. 
+When the user clicks on “New Request” from Figure ~\ref{fig:Dashboard} or on the sidebar, the Figure ~\ref{fig:Request1} Fresh State Request Page will be displayed. The requestor is then greeted with this form which it will ask for the type of document, the academic year and term, number of copies, and purpose. 
 
-Multiple documents may be requested per order or request. They can add different variants of documents using the “Add Document” button which will give them a cleared form with saved information of the previous documents at the top of the form as shown in Figure 4.6. Clicking the “Next” button will prompt the user to the Information Review page.
+Multiple documents may be requested per order or request. They can add different variants of documents using the “Add Document” button which will give them a cleared form with saved information of the previous documents at the top of the form as shown in Figure ~\ref{fig:Request2}. Clicking the “Next” button will prompt the user to the Information Review page.
 
     \begin{figure}[h]
         \centering 
@@ -93,7 +94,7 @@ Multiple documents may be requested per order or request. They can add different
         \end{minipage}
     \end{figure}
 
-The Information Review Page will display a summary of documents requested as well the information of the requestor that will be processed by the CAS College Secretary. A safeguard checkbox is added so that the user will confirm that all the information provided is correct to the best of their ability. Figure 4.8 shows the breakdown of payments based on the documents requested. The user can then pay using the QR code provided by the Cash Office in Figure 4.9.
+The Information Review Page will display a summary of documents requested as well the information of the requestor that will be processed by the CAS College Secretary. A safeguard checkbox is added so that the user will confirm that all the information provided is correct to the best of their ability. Figure ~\ref{fig:Request4} shows the breakdown of payments based on the documents requested. The user can then pay using the QR code provided by the Cash Office in Figure ~\ref{fig:Request5}.
 
     \begin{figure}[h]
         \centering 
@@ -133,7 +134,7 @@ The Tracking Page will help the requester track the documents requested into fou
         \end{minipage}
     \end{figure}
 
-The Tracking Main Page shown in Figure 4.12 shows all paid requests made by the user. The user can further filter out the request by “Paid”, “ Processing”, and “Completed”. In the case where the status of the document is “Paid” or “Processing”, the requester will only be able to see the request trail. When the status is set to “completed”, the requester can access the request trail, download the file immediately, and/or mark the request as received. On Figure 4.12, this shows the offices where the paper is currently being processed. It also displays the date stamps of the request milestones. In the case the College Secretary uploads the file, an email notifcation will be sent to the requestor, and the user will have a week to confirm receipt of the documents before it is automatically marked as received.
+The Tracking Main Page shown in Figure ~\ref{fig:Tracking1} shows all paid requests made by the user. The user can further filter out the request by “Paid”, “ Processing”, and “Completed”. In the case where the status of the document is “Paid” or “Processing”, the requester will only be able to see the request trail. When the status is set to “completed”, the requester can access the request trail, download the file immediately, and/or mark the request as received. On Figure ~\ref{fig:Tracking2}, this shows the offices where the paper is currently being processed. It also displays the date stamps of the request milestones. In the case the College Secretary uploads the file, an email notifcation will be sent to the requestor, and the user will have a week to confirm receipt of the documents before it is automatically marked as received.
 
 \subsection{UPV Cash Office View}
 
@@ -141,7 +142,7 @@ This section will discuss the different features of the UPV Cash Office View whi
 
 \subsubsection{Dashboard}
 
-The Cash Office will have the same Sign up page as the requestor, however, the system will redirect them to their own privileged dashboard as shown in Figure 4.13.
+The Cash Office will have the same Sign up page as the requestor, however, the system will redirect them to their own privileged dashboard as shown in Figure ~\ref{fig:CO_Dashboard}.
     \begin{figure}[h]
         \centering 
         \begin{minipage}[c]{0.5\linewidth}
@@ -152,7 +153,7 @@ The Cash Office will have the same Sign up page as the requestor, however, the s
         \end{minipage}
     \end{figure}
 
-The dashboard will show the credentials of the cash office, and the last login timestamp of the office. The upper-ride corner holds statistics of the receivable payments in the form of “Unpaid”, “Paid”, and “Confirmed”. The page\textsc{\char13}s center houses buttons that will redirect the office into accessing their profile, payment history, payment verification, and payment information forwarding. All of these will be discussed further below.
+The dashboard will show the credentials of the cash office. The upper-ride corner holds statistics of the receivable payments in the form of “Unpaid”, “Paid”, and “Confirmed”. The page\textsc{\char13}s center houses buttons that will redirect the office into accessing their profile, payment history, payment verification, and payment information forwarding. All of these will be discussed further below.
 
 \subsubsection{All Payments View}
 
@@ -170,7 +171,7 @@ This page will show all the active payments that are not forwarded to the Colleg
 
 \subsubsection{Verification and Original Receipt Forwarding}
 
-This page will display the partial payment details entered by the requestor in Figure 4.9. The office will need to enter the reference number they received on their end and when verified will redirect them to the official receipt uploading page in Figure 4.16 where they will be entering the official receipt transaction number and the file itself for the record of the college secretary. This will then archive the transaction.
+This page will display the partial payment details entered by the requestor in Figure ~\ref{fig:Request5}. The office will need to enter the reference number they received on their end and when verified will redirect them to the official receipt uploading page in Figure ~\ref{fig:CO_ForwardPayment1} where they will be entering the official receipt transaction number and the file itself for the record of the college secretary. This will then archive the transaction.
 
 \begin{figure}[h]
     \centering 
@@ -198,7 +199,7 @@ This page will display the partial payment details entered by the requestor in F
     \end{minipage}
 \end{figure}
 
-In case the payment code provided by the user doesn\textsc{\char13}t match the code received by the office, they can mark the transaction as invalid.
+In case the payment code provided by the user doesn\textsc{\char13}t match the code received by the office, they can mark the transaction as invalid and will request for the requester to re-enter the code.
 
 \subsubsection{Payment History}
 
@@ -214,7 +215,7 @@ This page will give the cash office payment reports as well as monitoring of all
     \end{minipage}
 \end{figure}
 
-A read-only  Request History page will feature a table report where the office can either print or export the tables as a PDF file. It has sorting and search features. This will give the office a quick glance at the transactions including those forwarded to the college secretary.
+A read-only Request History page will feature a table report where the office can either print or export the tables as a PDF file. It has sorting and search features. This will give the office a quick glance at the transactions including those forwarded to the college secretary.
 
 
 \subsection{CAS College of the College Secretary View}
@@ -224,7 +225,7 @@ This section will discuss the different features of the CAS Office of the Colleg
 
 
 \subsubsection{Dashboard}
-The College Secretary will have the same Sign up page as the requestor, however, the system will redirect them to their own privileged dashboard as shown in Figure 4.19. 
+The College Secretary will have the same Sign up page as the requestor, however, the system will redirect them to their own privileged dashboard as shown in Figure ~\ref{fig:CS_Dashboard}. 
 
     \begin{figure}[h]
         \centering 
@@ -236,7 +237,7 @@ The College Secretary will have the same Sign up page as the requestor, however,
         \end{minipage}
     \end{figure}
 
-This dashboard will show the credentials of the college secretary, and the last login timestamp of the office. This will provide security information for the office. On the right-hand side, resides the notification statistics of the document requested in the form of “New”, “Pending”, and “Released” this mirrors the notification on the view of the requestor. The middle portion of the page contains buttons that will redirect the office into accessing their profile, history of request, new request, and pending request. This will be further discussed below.
+This dashboard will show the credentials of the college secretary. This will give a visual guide on who currently modifies the request cards. On the right-hand side, resides the notification statistics of the document requested in the form of “New”, “Pending”, and “Released” this mirrors the notification on the view of the requestor. The middle portion of the page contains buttons that will redirect the office into accessing their profile, history of request, new request, and pending request. This will be further discussed below.
 
 \subsubsection{All Requests View}
 
@@ -314,34 +315,39 @@ The last view of the college secretary\textsc{\char13}s office will aid them in 
 The Request History page will feature a table report where the office can either print or export the tables as a PDF file. It has sorting and search features. However, this table will be read-only for monitoring and report purposes. This will give the office a quick glance at the transactions including those archived.
 
 \section{Analysis}
+The prototype system analyzed by this paper is housed in a GitHub Repository \url{https://github.com/joashdev/retrac}. This features the front-end developmental components of the system that mirrors the traditional face-to-face and online request protocol utilized by the CAS College Secretary, and UPV Cash Office. However, it borrows several user interface designs and experiences from the systems currently used by the college but considers minimalism and client bandwidth. It is expected to be deployed online \url{https://retrac.web.app/} for internal testing, debugging, and implementation.
+
     \begin{figure}[h]
         \centering 
-        \begin{minipage}[c]{0.7\linewidth}
+        \begin{minipage}[c]{0.8\linewidth}
             \centering
-            \includegraphics[width=0.9\columnwidth]{ContextDiagram.png}
+            \includegraphics[width=\columnwidth]{ContextDiagram.png}
             \caption{Context Diagram of the request system}
-            \label{fig:ContextDiagra}
+            \label{fig:ContextDiagram}
         \end{minipage}
     \end{figure}
     
     \begin{figure}[h]
         \centering 
-        \begin{minipage}[c]{0.7\linewidth}
+        \begin{minipage}[c]{0.9\linewidth}
             \centering
-            \includegraphics[width=0.9\columnwidth]{Diagram0.png}
+            \includegraphics[width=\columnwidth]{Diagram0.png}
             \caption{Diagram Level 0 of the request system}
             \label{fig:Diagram0}
         \end{minipage}
     \end{figure}
     
-The Context Diagram Flow Diagram of ReTrac shows the system prototype’s high-level processes and the relationship of the system with external entities, in this case, the Requester (student, alumni, faculty), Cash Office, and College Secretary of the College of Arts and Sciences. In figure 4.26, we can see how the system captures information, and communicate the interaction and flow of data between offices. 
+The Context Diagram Flow Diagram of ReTrac shows the system prototype’s high-level processes and the relationship of the system with external entities, in this case, the Requester (student, alumni, faculty), Cash Office, and College Secretary of the College of Arts and Sciences. In Figure ~\ref{fig:ContextDiagram}, we can see how the system captures information, and communicate the interaction and flow of data between offices. 
 
 The current process is in-line with the face-to-face and online request sequence where the requester must be a verified student, alumnus, or a graduate of the CAS to be able to request their documents. It is then required to pay the billing given by the college secretary, and then provide the original copy of the payment receipt from the cash office. Then, the documents requested will be processed and released after several days. 
 
-In figure 4.27, the same processes mentioned previously are shown as processes. Process 1 (User Registration) for student/alumnus verification and capturing of details. Process 2 (Fill Request Form) for filling out request form like Figure 3.1 but implemented online as seen in Figure 4.5. Process 3 (Create Billing) where the web application computes the billing of the requestor, like how close annotates the request form in face-to-face request and be forwarded to the cash office for payment. Process 4 (Apply Payment) where the cash office receives the money paid by the requester in the form of cash, bank, or mobile payments. In our system, we limit the payment option to PayMaya due to limitations set by the Commission on Audit. This will just prompt users to enter the transaction code generated by PayMaya from their phones when they scan the QR code and pay the fees from billing. Lastly, in process 5 (Forwarding Receipt), in the old-fashioned request protocol, the requester will hand-carry the O.R. from Cash Office back to the College Secretary’s Office. In the system, however, the cash office entity would verify the transaction code if the money sent by the requestion matches what it is on their record. In the case the code or the payment made is incorrect, the office will prompt the user to re-enter the code or repay the billing. If the information provided to the cash office is a match, the O.R. will be uploaded and will be visible to the ColSec and the request card will be marked as “VERIFIED PAYMENT”. This will signal the Colsec to process the Documents and prompt process 6 (Release Document) to the requester. 
+In Figure ~\ref{fig:Diagram0}, the same processes mentioned previously are shown as processes. Process 1 (User Registration) for student/alumnus verification and capturing of details. Process 2 (Fill Request Form) for filling out request form like Figure 3.1 but implemented online as seen in Figure 4.5. Process 3 (Create Billing) where the web application computes the billing of the requestor, like how close annotates the request form in face-to-face request and be forwarded to the cash office for payment. Process 4 (Apply Payment) where the cash office receives the money paid by the requester in the form of cash, bank, or mobile payments. In our system, we limit the payment option to PayMaya due to limitations set by the Commission on Audit. This will just prompt users to enter the transaction code generated by PayMaya from their phones when they scan the QR code and pay the fees from billing. Lastly, in process 5 (Forwarding Receipt), in the old-fashioned request protocol, the requester will hand-carry the O.R. from Cash Office back to the College Secretary’s Office. In the system, however, the cash office entity would verify the transaction code if the money sent by the requestion matches what it is on their record. In the case the code or the payment made is incorrect, the office will prompt the user to re-enter the code or repay the billing. If the information provided to the cash office is a match, the O.R. will be uploaded and will be visible to the ColSec and the request card will be marked as “VERIFIED PAYMENT”. This will signal the Colsec to process the Documents and prompt process 6 (Release Document) to the requester. 
 
 All of these real-life step-by-step transactions are reflected in Data Flow Diagram 0. The system also, utilized a step-by-step user experience in Requesting Documents for a guided online flow. This will also make the interface friendly to ffirst-time users of the application. 
 
+ReTract is a webapp prototype designed to help the UPV College of Arts and Sciences handle requests and documents. However, it was not developed in the context of records management. Furthermore, as a request system project, it was not completely supported by the university's present centralized management system architecture, but was designed to suit the urgent demands of the college secretary's office, cash office, and requesters. As a result, the system is self-contained and not linked to the framework used by the University of the Philippines in the Visayas' Computerized Registration and Student Information System, the UPV Learning Management System, and the recently adopted UP Document Tracking System.
+
+Furthermore, the comprehensive approach to system initiatives was not observed. Prior to real system development, all relevant system aspects including people, processes, technology, and tools must be identified and properly in place, according to the holistic approach.
 
 
 
@@ -352,6 +358,3 @@ This system allows the requestor to request student documents from the College o
 As shown in the results section of this paper, the developers were able to implement the core components of the web application and its functionalities: sign in and sign up, dashboard access, request forms, payment portal, tracking page, and various office functionalities such as payment verification and request status update. Each of the mentioned functionalities and features was implemented based on the review of related literature and methodology. 
 
 A portion of the web application is currently available thru local access backed with firebase remotely. Currently, it is in the internal debugging and testing phase.
-
-
-

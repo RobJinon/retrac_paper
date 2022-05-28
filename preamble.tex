@@ -48,6 +48,10 @@
 \textheight 8.5in
 
 
+\usepackage[compact]{titlesec}  
+\titlespacing{\section}{0pt}{0pt}{0pt}
+
+
 \parskip 1em
 \parindent 0.25in
 
@@ -72,6 +76,7 @@
 %\begin{tabbing}
 %\hspace{1.75in}\=\\}{\end{tabbing}\end{flushleft}}
 
+
 \newcommand{\thestitle}[1]{{\Large \textsc{#1}}}
 
 
@@ -80,10 +85,10 @@
 %  \renewcommand{\thetable}{\thesection.\arabic{table}}
 %  \renewcommand{\contentsname}{Table of Contents}
 
-\colorlet{punct}{red!60!black}
-\definecolor{background}{HTML}{EEEEEE}
-\definecolor{delim}{RGB}{20,105,176}
-\colorlet{numb}{magenta!60!black}
+% \colorlet{punct}{red!60!black}
+% \definecolor{background}{HTML}{EEEEEE}
+% \definecolor{delim}{RGB}{20,105,176}
+% \colorlet{numb}{magenta!60!black}
 
 % \lstdefinelanguage{json}{
 %     numbers=left,
